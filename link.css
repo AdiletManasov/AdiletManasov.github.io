@@ -1,0 +1,159 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+color: whitesmoke;
+background-color: #0B1D26;
+}
+
+  header {
+    width: 100%;
+    height: 900px;
+    background: url(./BG.jpg);
+   background-position: center;
+   background-size: cover;
+  }
+
+  .btn {
+    margin-left: 400px;
+    border: none;
+    background: transparent;
+    color: white;
+  }
+  .btn:hover {
+    transition: 0.2s;
+    color: goldenrod;
+  }
+  
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center 
+}
+
+ul a:hover { 
+  color: goldenrod;
+}
+a { 
+  color: white;
+  text-decoration: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+  margin-left: 30px;
+}
+li {
+  list-style: none;
+  margin-right: 30px;
+background: url();
+}
+
+.block {
+  display: flex;
+}
+.block li {
+  padding: 20px;
+}
+
+.lock {
+  margin-left: 65px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-decoration: none;  
+  color: #fff;
+  font-family: 'Borel', cursive;
+  margin-left: 300px ;
+  font-size: 30px;
+}
+
+
+
+
+.text {
+display: flex;
+justify-content: space-between;
+width: 80%;
+margin: auto;
+flex-wrap: nowrap;
+}
+
+
+
+.o1  {
+  font-size: 140px;
+  color: rgba(255, 255, 255, 0.256);
+  font-weight: bold;
+}
+.b {
+  display: flex;
+  width: 500px;
+  height: 600px; 
+}
+
+.more {
+  color: gold;
+  text-decoration: overline;
+}
+
+.o1i {
+  font-size: 140px;
+  color: rgba(255, 255, 255, 0.256);
+  font-weight: bold;
+}
+
+
+.container {
+  max-width: 1462px;
+  min-height: 280px;
+  color: aqua;
+}
+.family {
+  display: flex;
+  justify-content: center;
+}
+ 
+@media all and (min-width: 300px) and (max-width: 600px){
+  header{
+    width: auto;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+  }
+  nav{
+    width:300px;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+  }
+  .block{  
+    padding: 0;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .btn{
+    margin: 0;
+  }
+  li{
+    padding: 0;
+  }
+  .o1{
+    font-size: 60px;
+    align-self: flex-end;
+    text-align: center;
+  }
+  .b {
+    flex-direction: column;
+   width: 200px;
+   height: 300px; 
+   margin:10px;
+  }
+  .text{
+    margin-top: 50px;
+    width: 400px;
+    justify-content: space-between;
+  }
+  p{
+    font-size: 12px;
+  }
+ 
+}
